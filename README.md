@@ -21,7 +21,7 @@ A comprehensive exploratory data analysis (EDA) of Malaysian residential propert
 
 ## Overview
 
-This project provides an in-depth analysis of Malaysia's residential property market using real-world data. It explores property characteristics, pricing trends, regional variations, and key market insights through interactive Jupyter notebooks and comprehensive visualizations.
+This project provides an in-depth analysis of Malaysia's residential property market using real-world data. It explores property characteristics, pricing trends, regional variations, and key market insights through interactive Jupyter notebooks, forecasting models, and comprehensive visualizations.
 
 ## ✨ Features
 
@@ -32,7 +32,8 @@ This project provides an in-depth analysis of Malaysia's residential property ma
   - Distribution plots
   - District comparisons
   - Market trends
-- **Regional Focus**: Dedicated analysis of specific regions (e.g., Pahang state)
+- **Regional Focus**: Dedicated analysis of specific regions (e.g., Pahang and Johor states)
+- **Forecasting & Trend Projection**: Regression-based price forecasting for state-level market outlooks
 - **Data-Driven Insights**: Actionable conclusions about market dynamics
 
 ## Dataset
@@ -42,12 +43,12 @@ This project provides an in-depth analysis of Malaysia's residential property ma
 This dataset contains comprehensive information about residential properties in Malaysia including:
 - Property prices and valuations
 - Location details (state, district)
-- Property characteristics (size, type, etc.)
-- Market data across multiple regions
+- Property characteristics (size, type, tenure)
+- Market data across multiple regions and transaction periods
 
 **Data Source**: [Source information]
-**Records**: [Number of records]
-**Features**: [Number of features]
+**Records**: 410,959
+**Features**: 14
 
 ## Project Structure
 
@@ -57,7 +58,10 @@ Malaysia-Residential-Property-Analysis/
 ├── LICENSE                                # Apache License 2.0
 ├── Malaysia Residential Property Data.csv # Main dataset
 ├── EDA.ipynb                              # Comprehensive EDA & analysis
-└── EDA (Pahang).ipynb                     # Focused analysis on Pahang state
+├── EDA (Pahang).ipynb                     # Focused analysis on Pahang state
+├── EDA (Johor).ipynb                      # Focused analysis on Johor state
+├── Forecast (Pahang).ipynb                # Pahang forecasting and projection
+└── Forecast (Johor).ipynb                 # Johor forecasting and projection
 ```
 
 ## Installation
@@ -99,6 +103,9 @@ Malaysia-Residential-Property-Analysis/
 2. **Open the analysis notebooks**
    - `EDA.ipynb` - Comprehensive analysis of the entire dataset
    - `EDA (Pahang).ipynb` - Focused analysis of Pahang state properties
+   - `EDA (Johor).ipynb` - Focused analysis of Johor state properties
+   - `Forecast (Pahang).ipynb` - Forecasting and market projection for Pahang
+   - `Forecast (Johor).ipynb` - Forecasting and market projection for Johor
 
 3. **Run cells sequentially** to explore the analysis step by step
 
@@ -135,6 +142,22 @@ The analysis reveals:
 - District-by-district breakdown
 - Regional market trends
 - State-focused insights
+
+**EDA (Johor).ipynb**
+- Johor state-specific analysis
+- District-level comparison across Johor
+- Local property pricing patterns
+- Regional distribution and correlation analysis
+
+**Forecast (Pahang).ipynb**
+- Forecasting model development for Pahang
+- Time-series and regression-based price projection
+- Future transaction trend visualization
+
+**Forecast (Johor).ipynb**
+- Forecasting model development for Johor
+- State-specific predictive insights
+- Trend analysis and projection charts
 
 ## 🔍 Technologies Used
 
