@@ -99,10 +99,8 @@ Malaysia-Residential-Property-Analysis/
    ```
 
 2. **Open the analysis notebooks**
-   - `EDA.ipynb` - Comprehensive analysis of the entire dataset
    - `EDA (Pahang).ipynb` - Focused analysis of Pahang state properties
    - `EDA (Johor).ipynb` - Focused analysis of Johor state properties
-   - `Forecast (Pahang).ipynb` - Forecasting and market projection for Pahang
    - `Forecast (Johor).ipynb` - Forecasting and market projection for Johor
 
 3. **Run cells sequentially** to explore the analysis step by step
@@ -126,15 +124,6 @@ The analysis reveals:
 
 ### Notebook Features
 
-**EDA.ipynb**
-- Data loading and cleaning
-- Descriptive statistics
-- Distribution analysis
-- Correlation analysis
-- Multi-state comparisons
-- District-level insights
-- Advanced visualizations
-
 **EDA (Pahang).ipynb**
 - Pahang state-specific analysis
 - District-by-district breakdown
@@ -146,11 +135,6 @@ The analysis reveals:
 - District-level comparison across Johor
 - Local property pricing patterns
 - Regional distribution and correlation analysis
-
-**Forecast (Pahang).ipynb**
-- Forecasting model development for Pahang
-- Time-series and regression-based price projection
-- Future transaction trend visualization
 
 **Forecast (Johor).ipynb**
 - Forecasting model development for Johor
