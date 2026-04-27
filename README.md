@@ -57,10 +57,8 @@ Malaysia-Residential-Property-Analysis/
 ├── README.md                              # Project documentation
 ├── LICENSE                                # Apache License 2.0
 ├── Malaysia Residential Property Data.csv # Main dataset
-├── EDA.ipynb                              # Comprehensive EDA & analysis
 ├── EDA (Pahang).ipynb                     # Focused analysis on Pahang state
 ├── EDA (Johor).ipynb                      # Focused analysis on Johor state
-├── Forecast (Pahang).ipynb                # Pahang forecasting and projection
 └── Forecast (Johor).ipynb                 # Johor forecasting and projection
 ```
 
